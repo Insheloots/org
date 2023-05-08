@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(21, 21, 21, 0.7);
+    backdrop-filter: blur(2.5px);
+    position: fixed;
+    top: 0;
+    border-bottom: 0.7px solid #212121;
+    z-index: 1;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: ease 0.4s;
+
+}
+
+.navigation:hover {
+    opacity: 1;
+}
+
+.navigation img {
+    width: 14%;
+}
+
+.navigation p {
+    font-size: 19px;
+    color: #F1F1F1;
+}
+
+.navigation ul {
+    list-style: none;
+}

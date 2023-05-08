@@ -1,0 +1,45 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4%;
+    box-sizing: border-box;
+    color: #F1F1F1;
+    background-color: #212121;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.footer .footer-logo {
+    margin-left: 100px;
+    width: 4.5%;
+}
+
+
+
+.footer strong {
+    color: #0070f3;
+}
+
+.footer .creator {
+    opacity: 0.7;
+    transition: ease 0.4s;
+}
+
+.redes img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.redes a {
+    opacity: 0.4;
+    text-decoration: none;
+    color: #F1F1F1;
+    transition: ease 0.4s;
+}
+
+.redes a:hover {
+    opacity: 1;
+}

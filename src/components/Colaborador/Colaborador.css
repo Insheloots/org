@@ -1,0 +1,61 @@
+.colaborador {
+    width: 280px;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.colaborador .encabezado {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.colaborador img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.colaborador .info {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    min-height: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.colaborador .info h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.colaborador .info h5 {
+    color: #212121;
+    font-size: 18px;
+    padding: 0 24px;
+    line-height: 22px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.icon-close {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    background-color: rgba(21, 21, 21, 0.5);
+    color: #F1F1F1;
+    border-radius: 5px;
+    font-size: 23px;
+    padding: 1px;
+    cursor: pointer;
+    transition: background-color ease-in-out .2s;
+}
+
+.icon-close:hover {
+    background-color: #C62828;
+}

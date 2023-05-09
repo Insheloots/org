@@ -124,6 +124,7 @@ function App() {
     setEquipos(equiposActualizados);
   }
 
+
   return (
     <div className="App">
       <Header />
@@ -145,9 +146,7 @@ function App() {
         />
         )
       }
-
       <Footer />
-
     </div>
   );
 }

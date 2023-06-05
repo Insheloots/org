@@ -3,21 +3,37 @@
     visibility: visible;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
 }
 
 .formulario form {
-    max-width: 80%;
-    padding: 8px 100px;
+    max-width: 100%;
+    padding: 8px 20px;
     border-radius: 5px;
     border: 1px solid #D3D3D3;
-    width: 25%;
+    width: 100%;
 }
 
 .formulario h2 {
     font-family: 'Opens Sans', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: bold;
     color: #212121;
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        margin-top: 100px;
+    }
+
+    .formulario form {
+        max-width: 80%;
+        padding: 8px 100px;
+        width: 25%;
+    }
+
+    .formulario h2 {
+        font-size: 32px;
+    }
 }

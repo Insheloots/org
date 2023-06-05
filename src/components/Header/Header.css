@@ -19,7 +19,6 @@
     opacity: 0.8;
     cursor: pointer;
     transition: ease 0.4s;
-
 }
 
 .navigation:hover {
@@ -37,4 +36,18 @@
 
 .navigation ul {
     list-style: none;
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+
+    }
+
+    .navigation img {
+        width: 20%;
+        margin-bottom: 10px;
+    }
 }

@@ -3,14 +3,14 @@
     padding: 32px;
     box-sizing: border-box;
     text-align: center;
-    font-size: 32px;
+    font-size: 24px;
     position: relative;
 }
 
 .color-picker {
     position: absolute;
     top: 20px;
-    right: 50px;
+    right: 20px;
     appearance: none;
     border-color: transparent;
     padding: 8px;
@@ -33,7 +33,6 @@
     padding: 4px;
 }
 
-
 .equipo h3 {
     font-weight: 400;
     color: #212121;
@@ -46,4 +45,14 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .equipo {
+        font-size: 32px;
+    }
+
+    .color-picker {
+        right: 50px;
+    }
 }
